@@ -1,6 +1,8 @@
 # maizuo
 
-> A Vue.js project
+> A Vue.js project and test of git
+
+> now in new branch
 
 ## Build Setup
 
