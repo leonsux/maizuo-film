@@ -47,7 +47,7 @@
       margin-left: 15px;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: space-around;
       // align-items: space-around;
       :nth-child(1){
         display: flex;
@@ -83,6 +83,7 @@
           color: #8e8e8e;
           span{
             font-size: 12px;
+            margin-right: .3rem;
           }
         }
       }

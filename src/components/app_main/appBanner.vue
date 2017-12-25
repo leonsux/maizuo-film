@@ -28,7 +28,9 @@
           // slidesPerView: 'auto',
           // centeredSlides: true,
           // paginationClickable: true,
-          autoplay: true,
+          autoplay: {
+            delay: 2000
+          },
           speed: 300,
           // autoplayDisableOnInteraction: false,
           loop: true
