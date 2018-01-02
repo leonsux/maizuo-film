@@ -29,6 +29,11 @@
 </script>
 <style lang="scss">
   .app-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 521;
     display: flex;
     justify-content: space-between;
     height: 50px;

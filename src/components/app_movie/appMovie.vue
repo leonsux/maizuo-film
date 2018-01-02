@@ -33,8 +33,10 @@
   .app-movie{
     background: #fff;
     width: 3.45rem;
-    margin: 0 auto;
     height: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
     .film-list-nav{
       margin: 0 auto;
       width: 100%;

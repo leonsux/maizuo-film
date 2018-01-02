@@ -21,7 +21,9 @@
           {navId: 1, content: '首页', routerName: 'appMain'},
           {navId: 2, content: '影片', routerName: 'appMovie'},
           {navId: 3, content: '影院', routerName: 'appMovie'},
-          {navId: 4, content: '我的', routerName: 'appMovie'}
+          {navId: 4, content: '我的', routerName: 'appMovie'},
+          {navId: 5, content: '商城', routerName: 'appShop'},
+          {navId: 6, content: '购物车', routerName: 'appCart'}
         ]
       }
     },

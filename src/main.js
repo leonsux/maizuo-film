@@ -5,8 +5,12 @@ import App from './App'
 import router from './router'
 import VueAweomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
+import Vuex from 'vuex'
+
+import store from '@/store/index'
 
 Vue.use(VueAweomeSwiper)
+Vue.use(Vuex)
 
 Vue.config.productionTip = false
 
@@ -14,6 +18,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
+  store,
   template: '<App/>',
   components: { App }
 })

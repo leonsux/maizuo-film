@@ -6,6 +6,8 @@ import AppMain from '@/components/app_main/appMain'
 import AppMovie from '@/components/app_movie/appMovie'
 import Showing from '@/components/app_movie/app_showing_film'
 import Toshow from '@/components/app_movie/app_toshow_film'
+import AppShop from '@/components/app_shop/appShop'
+import AppCart from '@/components/app_cart/appCart'
 
 Vue.use(Router)
 
@@ -33,6 +35,16 @@ export default new Router({
           component: Toshow
         }
       ]
+    },
+    {
+      path: '/shop',
+      name: 'appShop',
+      component: AppShop
+    },
+    {
+      path: '/cart',
+      name: 'appCart',
+      component: AppCart
     }
   ]
 })

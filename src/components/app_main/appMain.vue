@@ -23,5 +23,6 @@
 <style >
   .app-main{
     background: #EBEBEB;
+    overflow-y: auto;
   }
 </style>
